@@ -61,36 +61,44 @@ Installation
 ### Steps
 
 1. Clone the Repository
-   git clone https://github.com/your-username/web-chat-application.git
-cd web-chat-application
 
-2. Install Backend Dependencies
-   cd backend
-   npm install
+         git clone https://github.com/your-username/web-chat-application.git
+         cd web-chat-application
 
-3. Configure Environment Variables
+3. Install Backend Dependencies
+
+         cd backend
+         npm install
+
+5. Configure Environment Variables
    Create a .env file in the backend directory and add the following:
-   PORT=5000
-   MONGODB_URI=your_mongodb_connection_string
-   JWT_SECRET=your_jwt_secret
 
-4. Start the Backend Server
-   npm start
+         PORT=5000
+         MONGODB_URI=your_mongodb_connection_string
+         JWT_SECRET=your_jwt_secret
 
-5. Install Frontend Dependencies
+7. Start the Backend Server
+
+         npm start
+
+9. Install Frontend Dependencies
    Open a new terminal window and navigate to the frontend directory:
-   cd frontend
-   npm install
 
-6. Configure Frontend Environment Variables
+         cd frontend
+         npm install
+
+11. Configure Frontend Environment Variables
    Create a .env file in the frontend directory and add the following:
-   REACT_APP_API_URL=http://localhost:5000
 
-7. Start the Frontend Development Server
-   npm start
+         REACT_APP_API_URL=http://localhost:5000
 
-8. Access the Application
-   Open your browser and navigate to http://localhost:3000.
+13. Start the Frontend Development Server
+
+         npm start
+
+15. Access the Application
+
+          Open your browser and navigate to http://localhost:3000.
 
 ### Usage
 1. Sign Up / Log In
